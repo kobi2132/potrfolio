@@ -1,0 +1,95 @@
+body {
+    background-image: url("background.png");
+}
+
+div h1 {
+    text-align: center;
+    color: rgb(2, 87, 224);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-family: "Audiowide", sans-serif;
+}
+
+.board {
+    border-radius: 8px;
+    background-color: rgb(238, 149, 149);
+    box-shadow: 10px 10px 5px grey;
+    padding: 30px;
+    margin: auto;
+    height: auto;
+    width: fit-content;
+    display: block;
+
+}
+
+.header {
+    margin: auto;
+    height: auto;
+    width: fit-content;
+    display: flex;
+}
+
+.headerBox {
+    border: 2.5px inset rgb(6, 147, 194);
+    border-radius: 8px;
+    background-color: lightblue;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    font-size: 1.7em;
+    margin: 15px;
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+
+.levels {
+    margin: auto;
+    height: auto;
+    width: fit-content;
+    display: block;
+}
+
+button {
+    background-color: rgb(201, 233, 243);
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    border-radius: 8px;
+    font-family: "Audiowide", sans-serif;
+}
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.cell img {
+    width: 35px;
+}
+
+table {
+    margin: auto;
+    height: auto;
+    width: fit-content;
+    display: block;
+}
+
+td {
+    background-color: rgb(6, 147, 194);
+    border: grey outset 1px;
+}
+
+.selected {
+    background-color: lightblue;
+    border: 0.1px inset rgb(6, 147, 194);
+}
+
+.mineSelected {
+    background-color: rgb(236, 110, 110);
+    border: 0.1px inset red;
+
+}
+
